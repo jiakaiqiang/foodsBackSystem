@@ -21,7 +21,7 @@ routers.beforeEach((to, from, next) => {
   const setoken = window.sessionStorage.getItem('token')
 
   if (!setoken) {
-    next('/login')
+    next('/login');
   } else {
     next()
   }
