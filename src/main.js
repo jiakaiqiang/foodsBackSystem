@@ -9,9 +9,12 @@ import elemenetui from 'element-ui'
 import'element-ui/lib/theme-chalk/index.css'
 //引入axios
 import axios from 'axios'
+//已进入字体图标
+import '../src/assets/fonts/iconfont.css'
 Vue.use(elemenetui)
-Vue.use(axios)
-
+Vue.prototype.$https = axios
+axios.defaults.baseURL="http://127.0.0.1:8888/api/private/v1/"
+//axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
