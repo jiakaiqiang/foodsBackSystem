@@ -40,10 +40,7 @@
 
 <script>
 export default {
-  created(){
-console.log(this.loginform)
-  },
-  data() {
+   data() {
     return {
       loginform: {
         username: "admin",

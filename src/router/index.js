@@ -3,6 +3,13 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Login from '@/components/login'
 import Home from '@/components/home'
+import Welcome from '@/components/HelloWorld'
+import User from '@/components/user/user'
+import order from '@/components/order/index'
+import roles from '@/components/roles/index'
+import report from '@/components/report/index'
+import project from '@/components/project/index'
+import role from '@/components/roles/roles'
 Vue.use(Router)
 
 const routers = new Router({
@@ -12,7 +19,23 @@ const routers = new Router({
       path: '/login',
       component: Login
     },
-    { path: '/home', component: Home }
+    { path: '/home', 
+    
+    component: Home ,children:[
+      {path:'/home',redirect:'/welcome'},
+      {path:'/welcome',component:Welcome},
+       {path:'/users',component:User},
+{path:'/goods',component:project},
+{path:'/roles',component:roles},
+{path:'/reports',component:report},
+{path:'/orders',component:order},
+{path:'/rights',component:role}
+       
+       
+       
+       
+       
+       ]}
   ]
 })
 
