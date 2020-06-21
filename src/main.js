@@ -12,6 +12,13 @@ import'element-ui/lib/theme-chalk/index.css'
 import axios from 'axios'
 //已进入字体图标
 import '../src/assets/fonts/iconfont.css'
+//导入富文本编辑器
+import vueQuilEditor from 'vue-quill-editor'
+//导入富文本编辑器的样式
+import 'quill/dist/quill.core.css'
+import 'quill/dist/quill.snow.css'
+import 'quill/dist/quill.bubble.css'
+Vue.use(vueQuilEditor)
 Vue.use(elemenetui)
 Vue.prototype.$https = axios
 axios.defaults.baseURL="http://127.0.0.1:8888/api/private/v1/"

@@ -26,7 +26,7 @@
           </div>
         </el-col>
         <el-col :span="6"
-          ><div class="grid-content bg-purple">
+          ><div >
             <el-button type="primary" @click="dialogVisible = true"
               >添加用户</el-button
             >

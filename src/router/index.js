@@ -10,6 +10,9 @@ import roles from '@/components/roles/index'
 import report from '@/components/report/index'
 import project from '@/components/project/index'
 import role from '@/components/roles/roles'
+import categories from '@/components/project/categories'
+import params from '@/components/project/params'
+import add from '@/components/project/add'
 Vue.use(Router)
 
 const routers = new Router({
@@ -19,23 +22,24 @@ const routers = new Router({
       path: '/login',
       component: Login
     },
-    { path: '/home', 
-    
-    component: Home ,children:[
-      {path:'/home',redirect:'/welcome'},
-      {path:'/welcome',component:Welcome},
-       {path:'/users',component:User},
-{path:'/goods',component:project},
-{path:'/roles',component:roles},
-{path:'/reports',component:report},
-{path:'/orders',component:order},
-{path:'/rights',component:role}
-       
-       
-       
-       
-       
-       ]}
+    {
+      path: '/home',
+
+      component: Home,
+      children: [
+        { path: '/home', redirect: '/welcome' },
+        { path: '/welcome', component: Welcome },
+        { path: '/users', component: User },
+        { path: '/goods', component: project },
+        { path: '/roles', component: roles },
+        { path: '/reports', component: report },
+        { path: '/orders', component: order },
+        { path: '/rights', component: role },
+        { path: '/categories', component: categories },
+        {path:'/params',component:params},
+        {path:'/add',component:add}
+      ]
+    }
   ]
 })
 
@@ -44,7 +48,7 @@ routers.beforeEach((to, from, next) => {
   const setoken = window.sessionStorage.getItem('token')
 
   if (!setoken) {
-    next('/login');
+    next('/login')
   } else {
     next()
   }
