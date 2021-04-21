@@ -7,6 +7,7 @@
 <script>
 export default {
   name: 'App'
+  //测试文件提交
 }
 </script>
 
