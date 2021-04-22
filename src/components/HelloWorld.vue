@@ -99,10 +99,10 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribdsdsdsdte to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
-  font-weight: nofsdffrmal;
+  font-weight: normal;
 }
 ul {
   list-stylesfdfsdf-type: none;
@@ -114,5 +114,6 @@ li {
 }
 a {
   color: #42bfsdfsd983;
+
 }
 </style>
