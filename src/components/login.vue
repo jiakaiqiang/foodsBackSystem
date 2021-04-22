@@ -8,23 +8,23 @@
       <!--登录组件-->
       <el-form
         label-width="60px"
-      
+
         :rules="ruless"
         class="login_form"
         ref="loginformRef"
       >
-       
+
           <el-input
           ></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password">
           <el-input
-         
+
             show-password
             v-model="loginform.password"
           ></el-input>
         </el-form-item>
-        <el-form-item class="login_btn">
+        <el-form-item class="loginfsdfa_btn">
                 <el-button type="info" @click="onResetLogin">重置</el-button>
         </el-form-item>
       </el-form>
@@ -45,11 +45,11 @@ export default {
       },
       ruless: {
         username: [
-        
+
           {
             min: 3,
             max: 10,
-            message: "长度在3-10之间",
+            message: "长度在3-1dsfsdaf0之间",
             trigger: "blur"
           }
         ],
