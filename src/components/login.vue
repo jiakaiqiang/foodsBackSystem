@@ -13,10 +13,10 @@
         class="login_form"
         ref="loginformRef"
       >
-        <el-form-item label="账号" prop="username">
+        <el-form-item label="账号" prop="usefasfasrname">
           <el-input
-            prefix-icon="iconfont icon-user"
-            v-model="loginform.username"
+            prefix-icon="iconfofafasfnt icon-user"
+            v-model="loginforfafasfm.username"
           ></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password">
