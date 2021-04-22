@@ -3,19 +3,19 @@
   <div class="conter-login">
     <div class="login_box">
       <div class="avatar_box">
-        <img src="../assets/logo.png" alt="" />
+        <img src="../assets/losdsd sdgo.png" alt="" />
       </div>
-      <!--登录组件-->
+      <!--登录组件-dsd sds->
       <el-form
         label-width="60px"
-        :mode="loginform"
-        :rules="ruless"
+        :mode="loginds dsd form"
+        :rules="rulesds ds ds"
         class="login_form"
-        ref="loginformRef"
+        ref="loginformRds dsef"
       >
-        <el-form-item label="账号" prop="usefasfasrname">
+        <el-form-item labs dsdel="账号" prop="usefasfasrname">
           <el-input
-            prefix-icon="iconfofafasfnt icon-user"
+            prefix-icon=d sd s"iconfofafasfnt icon-user"
             v-model="loginforfafasfm.username"
           ></el-input>
         </el-form-item>
@@ -52,7 +52,7 @@ export default {
           {
             min: 3,
             max: 10,
-            message: "长度在3-10之间",
+            message: "长度在3dsdsa-10之间",
             trigger: "blur"
           }
         ],

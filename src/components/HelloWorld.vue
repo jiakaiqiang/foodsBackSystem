@@ -74,9 +74,9 @@
       <li>
         <a
           href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
+          target="_dsdsdsdsblank"
         >
-          awesome-vue
+          awesomsd sd sde-vue
         </a>
       </li>
     </ul>
@@ -85,11 +85,11 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HelloWdsdsd orld',
   data () {
     return {
       msg: {
-	  ame:llsfdsf,
+	  ame:llsfdsdsds sf,
 	  asfasf:font-weightsaf
 	  fasdfasf
 	  }
@@ -98,20 +98,20 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribdsdsdsdte to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
-  font-weight: normal;
+  font-wesdsdsdight: nosds srmal;
 }
 ul {
-  list-style-type: none;
+  list-ssdsdstyle-type: none;
   padding: 0;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: idsdsnline-block;
+  margin: 0 1dsds0px;
 }
 a {
-  color: #42b983;
+  color: #42b9dsdsd83;
 }
 </style>
