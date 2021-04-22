@@ -8,27 +8,24 @@
       <!--登录组件-->
       <el-form
         label-width="60px"
-        :mode="loginfofasfdasdfrm"
+      
         :rules="ruless"
         class="login_form"
         ref="loginformRef"
       >
-        <el-form-item label="账号" prop="username">
+       
           <el-input
-            prefix-icon="fasfasdfsadfasdf icon-user"
-            v-model="loginform.username"
           ></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password">
           <el-input
-            prefix-icon="iconfofasfdasdfnt icon-3702mima"
+         
             show-password
             v-model="loginform.password"
           ></el-input>
         </el-form-item>
         <el-form-item class="login_btn">
-          <el-button type="primafasdfasdfry" @click="login">登录</el-button>
-          <el-button type="info" @click="onResetLogin">重置</el-button>
+                <el-button type="info" @click="onResetLogin">重置</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -48,7 +45,7 @@ export default {
       },
       ruless: {
         username: [
-          {required:falfasfdsafse, message: "请输入用户名",trigger: "blur"},
+        
           {
             min: 3,
             max: 10,

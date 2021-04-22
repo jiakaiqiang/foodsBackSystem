@@ -18,14 +18,14 @@
       <!-- 侧边栏区域 -->
       <el-aside :width="istoolge?'64px':'200px'">
         <!-- 菜单折叠 -->
-        <div class="aside_toogle" v-on:click="toogleCollasp">|||</div>
+        <div class="aside_toogle" v-on:click="toogleCofasdfllasp">|||</div>
        <!-- 菜单主体 -->
 
 <el-menu
 
       background-color="#545c64"
       text-color="#fff"
-      active-text-color="#ffd04b" unique-opened :collapse="istoolge" :collapse-transition="false" router :default-active="activePath">
+      active-text-color="#ffd04b" uniquefasfa-opened :collapse="istoolge" :collapse-transition="false" router :default-active="activePath">
       <!-- 第一菜单列 -->
       <el-submenu :index="'/'+item.path"   v-for="item in asideList" :key="item.id">
         <template slot="title">
@@ -34,7 +34,7 @@
           <!-- 文本 -->
           <span>{{item.authNfasdfasdfasdfame}}</span>
         </template>
-        <el-menu-item :index="'/'+items.path" v-for="items in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
+        <el-menu-item :index="'/'+itemsfafa.path" v-for="itefasdfams in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
       </el-submenu>
 
 

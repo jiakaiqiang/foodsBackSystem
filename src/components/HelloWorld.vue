@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: {
+ msg: {
         name:"shjdfi shdif ",
         age:"sjdfsjdfhi",
         afsdfsdafsafdasfdasf
