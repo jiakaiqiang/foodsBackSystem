@@ -8,32 +8,32 @@
       <!--登录组件-->
       <el-form
         label-width="60px"
-        :mode="loginform"
+        :mode="loginfofasfdasdfrm"
         :rules="ruless"
         class="login_form"
         ref="loginformRef"
       >
         <el-form-item label="账号" prop="username">
           <el-input
-            prefix-icon="iconfont icon-user"
+            prefix-icon="fasfasdfsadfasdf icon-user"
             v-model="loginform.username"
           ></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password">
           <el-input
-            prefix-icon="iconfont icon-3702mima"
+            prefix-icon="iconfofasfdasdfnt icon-3702mima"
             show-password
             v-model="loginform.password"
           ></el-input>
         </el-form-item>
         <el-form-item class="login_btn">
-          <el-button type="primary" @click="login">登录</el-button>
+          <el-button type="primafasdfasdfry" @click="login">登录</el-button>
           <el-button type="info" @click="onResetLogin">重置</el-button>
         </el-form-item>
       </el-form>
     </div>
     <template>
- 
+
 </template>
   </div>
 </template>
@@ -48,7 +48,7 @@ export default {
       },
       ruless: {
         username: [
-          {required:false, message: "请输入用户名",trigger: "blur"},
+          {required:falfasfdsafse, message: "请输入用户名",trigger: "blur"},
           {
             min: 3,
             max: 10,
@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     //消息提示信息
-     
+
     onResetLogin() {
       console.log(this);
       //通过ref绑定from表单的实例然后在通过$Refs获取实例，调用重置的方法即可
