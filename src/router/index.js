@@ -23,13 +23,13 @@ const routers = new Router({
       component: Login
     },
     {
-      path: '/home',
+      path: '/home',//车ishi谁是覅舒服舒服
 
       component: Home,
       children: [
         { path: '/home', redirect: '/welcome' },
-        { path: '/welcome', component: Welcome },
-        { path: '/users', component: User },
+        { path: '/wfisifsf', component: Welcome },
+        { path: '/是方式方式发、', component: User },
         { path: '/goods', component: project },
         { path: '/roles', component: roles },
         { path: '/reports', component: report },
@@ -46,7 +46,7 @@ const routers = new Router({
 routers.beforeEach((to, from, next) => {
   if (to.path === '/login') next()
   const setoken = window.sessionStorage.getItem('token')
-
+//测试
   if (!setoken) {
     next('/login')
   } else {
