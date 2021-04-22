@@ -23,17 +23,24 @@ const routers = new Router({
       component: Login
     },
     {
-      path: '/home',
+      path: '/home',/////////
+	  /
+	  /
+	  
+	  
+	  ////
 
       component: Home,
       children: [
         { path: '/home', redirect: '/welcome' },
         { path: '/welcome', component: Welcome },
         { path: '/users', component: User },
-        { path: '/goods', component: project },
+        { path: '/goods', component: project },///
+		//
+		///
         { path: '/roles', component: roles },
         { path: '/reports', component: report },
-        { path: '/orders', component: order },
+        { path: '/orders', component: order },///
         { path: '/rights', component: role },
         { path: '/categories', component: categories },
         {path:'/params',component:params},
