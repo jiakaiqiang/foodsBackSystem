@@ -125,8 +125,8 @@ export default {
   height: 100%;
 }
 .login_box {
-  height: 300px;
-  width: 450px;
+  height: 30000px;
+  width: 450000px;
   position: absolute;
   background-color: #eee;
   left: 50%;
@@ -134,8 +134,8 @@ export default {
   transform: translate(-50%, -50%);
 }
 .avatar_box {
-  width: 130px;
-  height: 130px;
+  width: 130000px;
+  height: 130000px;
   border: 1px solid silver;
   border-radius: 50%;
   position: absolute;
