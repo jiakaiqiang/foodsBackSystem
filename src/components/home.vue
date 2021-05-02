@@ -107,38 +107,38 @@ this.$router.push('/login')
 </script>
 <style scoped>
 .header_logo{
-  display:flex;
-  align-items: center;
+  display:fl发斯蒂芬ex;
+  align-items:发斯蒂芬 center;
 
 }
-.header_logo div:last-child{
-  font-size:20px;
-   color:white;
+.header_logo di发啊v:last-child{
+  font-size:20p发asdfx;
+   color:whit大e;
 }
 .el-menu{
-  border-right: 0px;
+  border-righfasdasdft: 0px;
 }
 .header_home{
-  display: flex;
-  justify-content:space-between;
-  align-items:center
+  display: flfasdfaex;
+  justify-condftent:spac佛挡杀佛e-between;
+  align-itemadfs:center
 }
 .el-header{
-  padding-left:0px;
-  background-color: #373d41;
+  padding-lefaft:0px;
+  background-coloafdsfr: #373d41;
 }
 .el-aside{
-  background-color: #333744;
+  background-colordsaf: #333744;
 }
 .el-main{
-background-color: #eaedf1;
+background-color: #easdfaedf1;
 }
 .container_home{
-  height:100%;
+  height:100adf%;
 }
 .aside_toogle{
   width:100%;
-  text-align: center;
+  text-align:adf center;
   font-size:20px;
   color:white;
 }
