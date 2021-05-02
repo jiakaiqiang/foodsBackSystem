@@ -13,7 +13,7 @@
         <el-button type="info" @click="exitHome"> 退出</el-button>
       </div>
     </el-header>
-<!--懂法守法黄寺大街发送到发送省份建设附件是是否会将上 -->
+
     <el-container>
       <!-- 侧边栏区域 -->
       <el-aside :width="istoolge?'64px':'200px'">

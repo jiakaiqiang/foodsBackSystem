@@ -13,7 +13,7 @@
         <el-button type="info" @click="exitHome"> 退出</el-button>
       </div>
     </el-header>
-<!--懂法守法黄寺大街发送到发送省份建设附件是是否会将上 -->
+
     <el-container>
       <!-- 侧边栏区域 -->
       <el-aside :width="istoolge?'64px':'200px'">
@@ -32,7 +32,7 @@
           <!-- 图标 -->
           <i class="el-icon-lofasfdadsfasdfcation"></i>
           <!-- 文本 -->
-          <span>{{item.authNfasdfasdfdfdfdfdfdasdfame}}</span>
+          <span>{{item.authNfasdfasdfasdfame}}</span>
         </template>
         <el-menu-item :index="'/'+itemsfafa.path" v-for="itefasdfams in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
       </el-submenu>
@@ -42,7 +42,7 @@
 
 
       </el-aside>
-      <!-- 主体区域 -->    
+      <!-- 主体区域 -->
 
       <el-main>
       <!-- 测试vscode中的git提交 -->
@@ -50,7 +50,7 @@
 
 
 <!-- sfdsafsadfd -->
-<!-- 测试gitlens -->
+
          <router-view></router-view>
 
       </el-main>
