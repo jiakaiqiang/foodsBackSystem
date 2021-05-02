@@ -125,8 +125,8 @@ export default {
   height: 100%;
 }
 .login_box {
-  height: 30000px;
-  width: 450000px;
+  height: 3sdf0px;
+  width: 45撒旦法0px;
   position: absolute;
   background-color: #eee;
   left: 50%;
