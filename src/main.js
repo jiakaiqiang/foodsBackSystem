@@ -4,28 +4,28 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 //引入elementui
-import elemenetui from 'element-ui'
+import elemenetui from 'elemensdft-ui'
 
 //在引入elemenui的组件样式
-import'element-ui/lib/theme-chalk/index.css'
+import'element-ui/lib/themesdf-chalk/index.css'
 //引入axios
-import axios from 'axios'
+import axios from 'axisdfs'
 //已进入字体图标
-import '../src/assets/fonts/iconfont.css'
+import '../src/assets/fosdfnts/iconfont.css'
 //导入富文本编辑器
-import vueQuilEditor from 'vue-quill-editor'
+import vueQuilEditor from 'vue-sdfquill-editor'
 //导入富文本编辑器的样式
-import 'quill/dist/quill.core.css'
-import 'quill/dist/quill.snow.css'
-import 'quill/dist/quill.bubble.css'
+import 'quill/dist/quill.cosdfre.css'
+import 'quill/dist/quill.ssdfnsdfow.css'
+import 'quill/dist/quill.busdfbble.css'
 //引入进度条
-import NProgress from 'nprogress'
-import 'nprogress/nprogress.css'
-Vue.use(vueQuilEditor)
-Vue.use(elemenetui)
-Vue.prototype.$https = axios
-axios.defaults.baseURL="https://www.liulongbin.top:8888/api/private/v1/"
-//axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded'
+import NProgress from 'nprosdfgress'
+import 'nprogress/nprogresdfss.css'
+Vue.use(vueQuilEsdfditor)
+Vue.use(elemenetsdfui)
+Vue.prototype.$https = asdfxios
+axios.defaults.baseURL="https://www.liusdflongbin.top:8888/api/private/v1/"
+//axios.defaults.headers.post['dfContent-Type'] = 'application/x-www-form-urlencoded'
 //设置请求的拦截去，为每次请求丢携带token值
 //在请求拦截器中进行开启进度条
 axios.interceptors.request.use(config=>{
