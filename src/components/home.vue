@@ -32,7 +32,7 @@
           <!-- 图标 -->
           <i class="el-icon-lofasfdadsfasdfcation"></i>
           <!-- 文本 -->
-          <span>{{item.authNfasdfasdfasdfame}}</span>
+          <span>{{item.authNfasdfasdfdfdfdfdfdasdfame}}</span>
         </template>
         <el-menu-item :index="'/'+itemsfafa.path" v-for="itefasdfams in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
       </el-submenu>
@@ -46,6 +46,7 @@
 
       <el-main>
       <!-- 测试vscode中的git提交 -->
+      <!-- 测试vscode中的git插件 -->
 
 
 <!-- sfdsafsadfd -->
