@@ -22,6 +22,7 @@ const routers = new Router({
       path: '/login',
       component: Login
     },
+<<<<<<< HEAD
     {
       path: '/home',
      
@@ -31,9 +32,18 @@ const routers = new Router({
         { path: '/welcome', component: Welcome },
         { path: '/users', component: User },
         { path: '/goods', component: project },
+=======
+    {      path: '/home',
+
+      component: Home,
+      children: [
+        { path: '/home', redirect: '/welcome' },
+
+       
+>>>>>>> 770ef4ee6cb3440edf0bb54063985e3c2b0b8099
         { path: '/roles', component: roles },
         { path: '/reports', component: report },
-        { path: '/orders', component: order },
+
         { path: '/rights', component: role },
         { path: '/categories', component: categories },
         {path:'/params',component:params},
@@ -46,7 +56,6 @@ const routers = new Router({
 routers.beforeEach((to, from, next) => {
   if (to.path === '/login') next()
   const setoken = window.sessionStorage.getItem('token')
-
   if (!setoken) {
     next('/login')
   } else {

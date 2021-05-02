@@ -8,15 +8,15 @@
       <!--登录组件-->
       <el-form
         label-width="60px"
-        :mode="loginform"
-        :rules="ruless"
+        :mode="loginds dsd form"
+        :rules="rulesds ds ds"
         class="login_form"
-        ref="loginformRef"
+        ref="loginformRds dsef"
       >
-        <el-form-item label="账号" prop="username">
+        <el-form-item labs dsdel="账号" prop="usefasfasrname">
           <el-input
-            prefix-icon="iconfont icon-user"
-            v-model="loginform.username"
+            prefix-icon=d sd s"iconfofafasfnt icon-user"
+            v-model="loginforfafasfm.username"
           ></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password">
@@ -33,7 +33,7 @@
       </el-form>
     </div>
     <template>
- 
+
 </template>
   </div>
 </template>
@@ -48,11 +48,11 @@ export default {
       },
       ruless: {
         username: [
-          {required:false, message: "请输入用户名",trigger: "blur"},
+
           {
             min: 3,
             max: 10,
-            message: "长度在3-10之间",
+            message: "长度在3-1dsfsdaf0之间",
             trigger: "blur"
           }
         ],
@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     //消息提示信息
-     
+
     onResetLogin() {
       console.log(this);
       //通过ref绑定from表单的实例然后在通过$Refs获取实例，调用重置的方法即可

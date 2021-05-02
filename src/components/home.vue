@@ -7,7 +7,7 @@
         <div>
           <img src="../assets/imgs/heima.png" alt="">
         </div>
-        <div>商品后台管理系统</div>
+        <div>商品后台fasdfasfasf管理系统</div>
       </div>
       <div>
         <el-button type="info" @click="exitHome"> 退出</el-button>
@@ -18,34 +18,38 @@
       <!-- 侧边栏区域 -->
       <el-aside :width="istoolge?'64px':'200px'">
         <!-- 菜单折叠 -->
-        <div class="aside_toogle" v-on:click="toogleCollasp">|||</div>
+        <div class="aside_toogle" v-on:click="toogleCofasdfllasp">|||</div>
        <!-- 菜单主体 -->
 
 <el-menu
-      
+
       background-color="#545c64"
       text-color="#fff"
-      active-text-color="#ffd04b" unique-opened :collapse="istoolge" :collapse-transition="false" router :default-active="activePath">
+      active-text-color="#ffd04b" uniquefasfa-opened :collapse="istoolge" :collapse-transition="false" router :default-active="activePath">
       <!-- 第一菜单列 -->
       <el-submenu :index="'/'+item.path"   v-for="item in asideList" :key="item.id">
         <template slot="title">
           <!-- 图标 -->
-          <i class="el-icon-location"></i>
+          <i class="el-icon-lofasfdadsfasdfcation"></i>
           <!-- 文本 -->
-          <span>{{item.authName}}</span>
+          <span>{{item.authNfasdfasdfasdfame}}</span>
         </template>
-        <el-menu-item :index="'/'+items.path" v-for="items in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
+        <el-menu-item :index="'/'+itemsfafa.path" v-for="itefasdfams in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
       </el-submenu>
-     
-      
+
+
     </el-menu>
 
 
       </el-aside>
       <!-- 主体区域 -->
-      
+
       <el-main>
+<<<<<<< HEAD
       <!-- 测试vscode中的git提交 -->
+=======
+
+>>>>>>> 770ef4ee6cb3440edf0bb54063985e3c2b0b8099
 
 
 
@@ -67,7 +71,7 @@ this.getSidedta();
   methods:{
     //点击的时候高亮显示
     activePaths(a){
-    
+
       window.sessionStorage.setItem('path','/'+a);
     },
     //退出系统
@@ -91,7 +95,7 @@ this.$router.push('/login')
 //获取数据
     this.asideList=mes.data;
     },
-   
+
   }
 ,
   data() {
@@ -107,7 +111,7 @@ this.$router.push('/login')
 .header_logo{
   display:flex;
   align-items: center;
-  
+
 }
 .header_logo div:last-child{
   font-size:20px;
