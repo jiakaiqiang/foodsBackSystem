@@ -34,7 +34,7 @@
           <!-- 文本 -->
           <span>{{item.authName}}</span>
         </template>
-        <el-menu-item :index="'/'+items.path" v-for="items in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
+        <el-menu-item :index="'/home/'+items.path" v-for="items in item.children" :key="items.id" v-on:click="activePaths(items.path)">{{items.authName}}</el-menu-item>
       </el-submenu>
      
       
@@ -45,7 +45,7 @@
       <!-- 主体区域 -->
       
       <el-main>
-      <!-- 测试vscode中的git提交 -->
+         
 
 
 
@@ -89,7 +89,7 @@ this.$router.push('/login')
      let {data:mes}= await this.$https.get('menus');
      console.log(mes);
 //获取数据
-    this.asideList=mes.data;
+this.asideList=mes.data;
     },
    
   }

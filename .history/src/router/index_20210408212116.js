@@ -24,14 +24,14 @@ const routers = new Router({
     },
     {
       path: '/home',
-     
+
       component: Home,
       children: [
         // { path: '/home', redirect: '/welcome' },
-        { path: '/welcome', component: Welcome },
-        { path: '/users', component: User },
-        { path: '/goods', component: project },
-        { path: '/roles', component: roles },
+        { path: 'welcome', component: Welcome },
+        { path: 'users', component: User },
+        { path: 'goods', component: project },
+        { path: 'roles', component: roles },
         { path: '/reports', component: report },
         { path: '/orders', component: order },
         { path: '/rights', component: role },

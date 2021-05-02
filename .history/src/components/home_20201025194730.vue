@@ -45,7 +45,7 @@
       <!-- 主体区域 -->
       
       <el-main>
-      <!-- 测试vscode中的git提交 -->
+         
 
 
 
@@ -89,7 +89,7 @@ this.$router.push('/login')
      let {data:mes}= await this.$https.get('menus');
      console.log(mes);
 //获取数据
-    this.asideList=mes.data;
+this.asideList=mes.data;
     },
    
   }

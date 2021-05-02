@@ -29,15 +29,15 @@ const routers = new Router({
       children: [
         // { path: '/home', redirect: '/welcome' },
         { path: '/welcome', component: Welcome },
-        { path: '/users', component: User },
-        { path: '/goods', component: project },
-        { path: '/roles', component: roles },
-        { path: '/reports', component: report },
-        { path: '/orders', component: order },
-        { path: '/rights', component: role },
-        { path: '/categories', component: categories },
-        {path:'/params',component:params},
-        {path:'/add',component:add}
+        { path: 'users', component: User },
+        { path: 'goods', component: project },
+        { path: 'roles', component: roles },
+        { path: 'reports', component: report },
+        { path: 'orders', component: order },
+        { path: 'rights', component: role },
+        { path: 'categories', component: categories },
+        {path:'params',component:params},
+        {path:'add',component:add}
       ]
     }
   ]

@@ -27,7 +27,7 @@
       text-color="#fff"
       active-text-color="#ffd04b" unique-opened :collapse="istoolge" :collapse-transition="false" router :default-active="activePath">
       <!-- 第一菜单列 -->
-      <el-submenu :index="'/'+item.path"   v-for="item in asideList" :key="item.id">
+      <el-submenu :index="'/home/'+item.path"   v-for="item in asideList" :key="item.id">
         <template slot="title">
           <!-- 图标 -->
           <i class="el-icon-location"></i>
@@ -45,7 +45,7 @@
       <!-- 主体区域 -->
       
       <el-main>
-      <!-- 测试vscode中的git提交 -->
+         
 
 
 
@@ -89,7 +89,7 @@ this.$router.push('/login')
      let {data:mes}= await this.$https.get('menus');
      console.log(mes);
 //获取数据
-    this.asideList=mes.data;
+this.asideList=mes.data;
     },
    
   }

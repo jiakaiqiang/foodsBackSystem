@@ -16,6 +16,7 @@ import add from '@/components/project/add'
 Vue.use(Router)
 
 const routers = new Router({
+  mode:'histroy',
   routes: [
     { path: '/', redirect: '/login' },
     {
@@ -24,20 +25,20 @@ const routers = new Router({
     },
     {
       path: '/home',
-     
+
       component: Home,
       children: [
         // { path: '/home', redirect: '/welcome' },
-        { path: '/welcome', component: Welcome },
-        { path: '/users', component: User },
-        { path: '/goods', component: project },
-        { path: '/roles', component: roles },
-        { path: '/reports', component: report },
-        { path: '/orders', component: order },
-        { path: '/rights', component: role },
-        { path: '/categories', component: categories },
-        {path:'/params',component:params},
-        {path:'/add',component:add}
+        { path: 'welcome', component: Welcome },
+        { path: 'users', component: User },
+        { path: 'goods', component: project },
+        { path: 'roles', component: roles },
+        { path: 'reports', component: report },
+        { path: 'orders', component: order },
+        { path: 'rights', component: role },
+        { path: 'categories', component: categories },
+        {path:'params',component:params},
+        {path:'add',component:add}
       ]
     }
   ]
